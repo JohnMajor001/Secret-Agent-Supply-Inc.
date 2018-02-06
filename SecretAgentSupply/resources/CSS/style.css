@@ -1,0 +1,26 @@
+html {
+font-size: 18px;
+  }
+.white {
+  color: white;
+}
+.black {
+  background-color: black;
+}
+.helvetica {
+  font-family: Helvetica;
+}
+                        /*Top Bar*/
+.topBar {
+  display: flex;
+  justify-content: center;
+}
+.topBarContainer {
+  display: flex;
+  align-items: center;
+  width: 960px;
+  padding: 0.66rem 1rem 0.66rem 0.5rem;
+}
+.topLogoMargin {
+margin-right: 1rem;
+}

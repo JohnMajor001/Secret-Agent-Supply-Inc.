@@ -74,6 +74,9 @@ html {
   display: flex;
   justify-content: space-between;
 }
+.containerMiddle h5 {
+  display: none;
+}
                                 /*Second Section*/
 .secondSectionOverContainer {
   display: flex;
@@ -137,4 +140,81 @@ html {
   width: 960px;
   text-align: left;
   align-items: center;
+}
+
+                  /*Reponsive*/
+/* Tablets */
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+    .containerMiddle h4 {
+    display: none;
+  }
+  .containerMiddle {
+    display: flex;
+    justify-content: center;
+  }
+  .containerMiddle h5 {
+    display: inline;
+  }
+  .thermalGlassesLeave,
+  .thermalGlassesLeave h4,
+  .thermalGlassesLeave img {
+    display: none;
+  }
+  .secondSectionContainerAFlex {
+    width: 47%;
+  }
+}
+
+/*  Mobiles */
+@media only screen and (max-width: 470px) {
+  .motorBikeImg {
+    height: 15rem;
+  }
+  .container {
+    display: flex;
+    align-items: flex-end;
+  }
+  .firstSectionBox {
+    width: 100%;
+    margin: 0;
+    padding: 1rem 0 2rem 2rem;
+  }
+  .oneRem {
+    font-size: 0.77rem;
+  }
+  .twoRem {
+    font-size: 1rem;
+  }
+  .cellularWatchLeave,
+  .cellularWatchLeave h4,
+  .cellularWatchLeave img {
+    display: none;
+  }
+  .secondSectionContainerAFlex {
+    width: 90%;
+  }
+  .secondSectionContainerA {
+    display: flex;
+    justify-content: center;
+  }
+  .secondSectionContainerB {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 7rem;
+  }
+  .secondSectionContainerBFlex {
+    width: 100%;
+  }
+  .secondSectionContainerBFlex h4 {
+    margin-bottom: 1rem;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
 }

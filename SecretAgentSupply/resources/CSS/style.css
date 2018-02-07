@@ -1,32 +1,35 @@
 html {
-font-size: 18px;
+  font-size: 18px;
   }
+  /*.border {
+    border: 1px solid black;
+  }*/
 .white {
-color: white;
+  color: white;
 }
 .black {
-background-color: black;
+  background-color: black;
 }
 .helvetica {
-font-family: Helvetica;
+  font-family: Helvetica;
 }
 .bold {
-font-weight: bold;
+  font-weight: bold;
 }
                         /*Top Bar*/
 .topBar {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .topBarContainer {
-display: flex;
-align-items: center;
-width: 960px;
-padding: 0.66rem 1rem 0.66rem 0.5rem;
+  display: flex;
+  align-items: center;
+  width: 960px;
+  padding: 0.66rem 1rem 0.66rem 0.5rem;
 }
 .topLogoMargin {
-margin-right: 1rem;
-height: 1.5rem;
+  margin-right: 1rem;
+  height: 1.5rem;
 }
 .twoRem {
   font-size: 2rem;
@@ -34,31 +37,104 @@ height: 1.5rem;
 .oneRem {
   font-size: 1rem;
 }
-                      /*First Section*/
+                                /*First Section*/
 .motorBikeImg {
-background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
-background-repeat: no-repeat;
-background-size: cover;
-height: 25rem;
-width: 100%;
-display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 960px;
+  display: flex;
 }
 .firstSectionBox {
-width: 20rem;
-margin: 9rem 0 4rem 7rem;
-padding-left: 3rem;
-padding-top: 2rem;
+  width: 20rem;
+  margin: 9rem 0 4rem 0;
+  padding-left: 3rem;
+  padding-top: 2rem;
 }
 
 .paddingBottom {
   padding-bottom: 0.25rem;
 }
-                /*Middle-Banner*/
+                                /*Middle-Banner*/
 .middleBanner {
-  padding: 0.75rem 7rem;
+  padding: 0.75rem 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: firebrick;
   width: 100%;
+}
+.containerMiddle {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+                                /*Second Section*/
+.secondSectionOverContainer {
+  display: flex;
+  justify-content: center;
+}
+.secondSectionContainer {
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.secondSectionContainerA {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 100%;
+}
+.secondSectionContainerAFlex {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.secondSectionAPadding {
+  padding: 0.5rem;
+  text-align: center;
+  width: 96%;
+}
+.secondSectionContainerB {
+  width: 100%;
+  margin: 0 0 4rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.secondSectionContainerBFlex {
+  width: 30%;
+}
+.blackBorder {
+  border: 0.22rem solid black;
+}
+.secondSectionImg {
+  height: 9rem;
+  padding: 2rem 1rem;
+  width: auto;
+}
+#thermalGlasses {
+  width: 95%;
+}
+.secondSectionBPadding {
+  padding: 1rem 2rem;
+}
 
+                    /*Footer*/
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+}
+.footer {
+  display: flex;
+  width: 960px;
+  text-align: left;
+  align-items: center;
 }
